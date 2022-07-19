@@ -1,0 +1,44 @@
+{
+  "name": "react-image-grid-uploader",
+  "version": "0.1.0-alpha+001",
+  "description": "A customizable React component that renders a file input grid for uploading images",
+  "keywords": [
+    "react",
+    "image",
+    "grid",
+    "upload",
+    "uploader"
+  ],
+  "homepage": "https://github.com/angelbt91/react-image-grid-uploader",
+  "bugs": {
+    "url": "https://github.com/angelbt91/react-image-grid-uploader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelbt91/react-image-grid-uploader.git"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "author": "Angel Blanco",
+  "license": "GPL-3.0-only",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
