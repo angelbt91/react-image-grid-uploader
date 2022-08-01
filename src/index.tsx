@@ -6,8 +6,8 @@ interface Props {
   boxStyles: CSS.Properties;
 }
 
-const SayHello = ({ name, boxStyles }: Props): JSX.Element => {
+const ImageGridUploader = ({ name, boxStyles }: Props): JSX.Element => {
   return <div style={boxStyles}>Hey {name}, say hello to TypeScript.</div>;
 };
 
-export default SayHello;
+export default ImageGridUploader;

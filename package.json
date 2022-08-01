@@ -29,7 +29,8 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "nodemon -e tsx -w src/ --exec \"yarn build:esm\""
   },
   "lint-staged": {
     "**/*": [
@@ -48,6 +49,7 @@
     "eslint-plugin-react": "^7.30.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
