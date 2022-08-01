@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import SayHello from "react-image-grid-uploader";
 
 function App() {
   return (
     <div>
-        <SayHello name={"Angel"} />
+      <SayHello name={"Angel"} />
     </div>
   );
 }

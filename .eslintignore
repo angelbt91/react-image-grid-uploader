@@ -1,0 +1,12 @@
+.idea/
+node_modules
+lib/
+/example/build
+/example/public
+yarn-error.log
+.husky/
+.prettierignore
+.prettierrc.json
+README.md
+tsconfig.json
+yarn.lock
