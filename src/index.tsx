@@ -1,9 +1,8 @@
 import React from "react";
-import * as CSS from "csstype";
 
 interface Props {
   name: string;
-  boxStyles: CSS.Properties;
+  boxStyles: React.CSSProperties;
 }
 
 const ImageGridUploader = ({ name, boxStyles }: Props): JSX.Element => {
