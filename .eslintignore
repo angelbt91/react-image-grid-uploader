@@ -6,7 +6,6 @@ lib/
 yarn-error.log
 .husky/
 .prettierignore
-.prettierrc.json
 README.md
-tsconfig.json
 yarn.lock
+*.json
